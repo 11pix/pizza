@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/***** header *****/
 header {
-    background: url("img/ice_cream_balls.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)), url("img/ice_cream_balls.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
 }
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+/***** main *****/
