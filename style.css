@@ -13,7 +13,7 @@ header {
 .header-text {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
@@ -24,4 +24,47 @@ header {
     letter-spacing: 2.5px;
     word-spacing: 5px;
 }
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: #de6c33;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+}
+
+.btn-full {
+    background: #de6c33;
+}
+
+.btn-empty {
+    margin: 5px;
+}
+
+
+
+
+
 /***** main *****/
+
+
+
+/***** poznámky ****
+
+inline: paddingy po všech stranách, marginy jen vlevo a vpravo,
+nemá výšku ani šířku;
+
+inline-block: má marginy a paddingy po všech stranách, má výšku i šířku, nechá elementy vedle sebe;
+
+block: má marginy a paddingy po všech strsanách, má výšku i šířku, každý element je na jednom řádku;
+
+none: necá zmizet;
+
+
+
+*/
