@@ -5,7 +5,7 @@
 }
 /***** header *****/
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)), url("img/ice_cream_balls.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("img/ice_cream_balls.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -17,4 +17,11 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+}
 /***** main *****/
