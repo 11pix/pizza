@@ -37,24 +37,7 @@ header {
     padding: 5px 15px;
     letter-spacing: 1px;
 }
-
-.btn-full {
-    background: #de6c33;
-}
-
-.btn-empty {
-    margin: 5px;
-}
-
-
-
-
-
-/***** main *****/
-
-
-
-/***** poznámky ****
+/***** poznámky pro display: ****
 
 inline: paddingy po všech stranách, marginy jen vlevo a vpravo,
 nemá výšku ani šířku;
@@ -63,8 +46,51 @@ inline-block: má marginy a paddingy po všech stranách, má výšku i šířku
 
 block: má marginy a paddingy po všech strsanách, má výšku i šířku, každý element je na jednom řádku;
 
-none: necá zmizet;
+none: nechá zmizet;
+*/
+
+
+.btn-full:link,
+.btn-full:visited {
+    background: #de6c33;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: #e05712;
+    border: 2px solid #e05712;
+}
+
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 5px;
+}
+.btn-empty:hover,
+.btn-empty:active {
+    background: #e05712;
+}
 
 
 
+
+/***** main *****/
+
+
+
+/***** poznámky pro  pseudotřídy****
+
+:link - nenavštívený odkaz (nekliknuto)
+:visited - navštívený odkaz (kliknuto)
+:hover - ve chvíli najetí kurzoru myši na odkaz
+:active - ve chvíli kliknutí
+
+.test:link 
+.test:visited {
+    color: black;
+}
+
+.test:hover 
+.test:active {
+    color: #de6c33;
 */
