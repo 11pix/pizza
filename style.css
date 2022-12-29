@@ -5,10 +5,23 @@
 }
 /***** reusable *****/
 .row {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
+.heading-main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #de6c33;
+    margin: 20px auto;
+}
 
 
 /***** header *****/
@@ -51,8 +64,8 @@ nav ul li a:active {
 
 .header-text {
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 50%;
+    left: 41%;
     transform: translate(-50%, -50%);
 }
 
@@ -96,6 +109,7 @@ none: nechá zmizet;
 
 .btn-full:hover,
 .btn-full:active {
+    transition: background 0.5s;
     background: #e05712;
     border: 2px solid #e05712;
 }
@@ -104,17 +118,28 @@ none: nechá zmizet;
 .btn-empty:link,
 .btn-empty:visited {
     margin-left: 5px;
+    background: transparent;
 }
 .btn-empty:hover,
 .btn-empty:active {
+    transition: background 0.5s;
     background: #e05712;
+    border: 2px solid #e05712;
 }
 
+/***** About us *****/
+.pizza-example img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
+}
 
-
-
-/***** main *****/
-
+/***** Our pizza *****/
+.pizza-info img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000;
+}
 
 
 /***** poznámky pro  pseudotřídy****
