@@ -160,6 +160,20 @@ none: nechá zmizet;
     font-size: 20px;
 } 
 
+/***** Reference *****/
+.reference {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))
+    ,url(img/pizza.jpg);
+}
+
+.reference h2 {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.reference h2:after {
+    border-bottom: 2px solid #fff;
+}
 
 /***** Stop floating - až na konec CSS *****/
 .clearfix {
