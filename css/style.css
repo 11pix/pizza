@@ -26,7 +26,7 @@
 
 /***** header *****/
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("img/pizza.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../img/pizza.jpg");
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -164,7 +164,7 @@ none: nechá zmizet;
 /***** Reference *****/
 .reference {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))
-    ,url(img/pizza.jpg);
+    ,url(../img/pizza.jpg);
     background-attachment: fixed;
 }
 
