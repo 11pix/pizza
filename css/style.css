@@ -229,19 +229,40 @@ none: nechá zmizet;
 
 /***** Contact form *****/
 .contact-form {
-    width: 500px;
+    width: 700px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .contact-form input {
     width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .contact-form textarea {
     width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
 }
+ input[type="submit"] {
+    background-color: #e05712;
+    color: #fff;
+    font-size: 20px;
+ }
 
-
+input[type="submit"]:hover {
+    transition: background-color 1.5s;
+    background-color: #de6c33;
+    color: #000;
+  }
 
 
 /***** Stop floating *****/
