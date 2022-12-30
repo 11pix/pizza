@@ -26,7 +26,7 @@
 
 /***** header *****/
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("img/pizza.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../img/pizza.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -163,7 +163,7 @@ none: nechá zmizet;
 /***** Reference *****/
 .reference {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))
-    ,url(img/pizza.jpg);
+    ,url(../img/pizza.jpg);
 }
 
 .reference h2 {
@@ -206,7 +206,7 @@ none: nechá zmizet;
 /***** Photo gallery *****/
 .photo-segment li {
     list-style: none;
-    background-color: #000;
+    /* background-color: #000; */
     overflow: hidden;
     height: 300px;
 }
@@ -214,21 +214,24 @@ none: nechá zmizet;
 .photo-segment img {
     width: 100%;
     height: 300px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     transform: scale(1.15);
 }
 
-.photo-segment img:hover {
-    transition: transform 0.5s, opacity 0.5s;
-    transform: scale(1);
+/**Zakomentovat tohle, když děláš lightbox, plus vypnout bgcolor v photo-segment li a opacitu v photo-segment img **/
+
+/* .photo-segment img:hover {
+    /* transition: transform 0.5s, opacity 0.5s; */
+    /* transform: scale(1);
     opacity: 1;
-}
+} */ 
 
 
 /***** Stop floating *****/
 .clearfix {
     zoom: 1
 }
+
 
 .clearfix:after {
     content: ".";
@@ -237,6 +240,10 @@ none: nechá zmizet;
     height: 0;
     visibility: hidden;
 }
+
+
+
+
 
 /***** poznámky pro  pseudotřídy****
 
