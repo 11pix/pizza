@@ -227,6 +227,23 @@ none: nechá zmizet;
 } */ 
 
 
+/***** Contact form *****/
+.contact-form {
+    width: 500px;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 80%;
+}
+
+.contact-form textarea {
+    width: 80%;
+}
+
+
+
+
 /***** Stop floating *****/
 .clearfix {
     zoom: 1
