@@ -262,22 +262,38 @@ input[type="submit"]:hover {
     color: #000;
   }
 
-  /***** Footer *****/
-  .footer-page {
+/***** Footer *****/
+.footer-page {
     background-color: #e05712;
-  }
+    color: #fff;
+}
 
-  .social {
+.social {
     text-align: center;
-  }
+    margin: 10px 0;
+}
 
-  .social p {
+.social p {
     display: inline;
-  }
+    margin-right: 20px;
+}
 
-  .footer-text {
-    text-align: center;
-  }
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    }
+
+.social p a:hover,
+.social p a:active {
+    color: #000; 
+}
+
+.footer-text {
+text-align: center;
+margin: 10px 0 20px 0;
+}
 
 
 
