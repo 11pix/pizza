@@ -209,7 +209,7 @@ none: nechá zmizet;
 /***** Photo gallery *****/
 .photo-segment li {
     list-style: none;
-    background-color: #000;
+    /* background-color: #000; */
     overflow: hidden;
     height: 300px;
 }
@@ -217,15 +217,90 @@ none: nechá zmizet;
 .photo-segment img {
     width: 100%;
     height: 300px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     transform: scale(1.15);
 }
 
-.photo-segment img:hover {
-    transition: transform 0.5s, opacity 0.5s;
-    transform: scale(1);
+/**Zakomentovat tohle, když děláš lightbox, plus vypnout bgcolor v photo-segment li a opacitu v photo-segment img **/
+
+/* .photo-segment img:hover {
+    /* transition: transform 0.5s, opacity 0.5s; */
+    /* transform: scale(1);
     opacity: 1;
+} */ 
+
+
+/***** Contact form *****/
+.contact-form {
+    max-width: 700px;
+    text-align: center;
+    padding-bottom: 50px;
 }
+
+.contact-form input {
+    width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
+}
+ input[type="submit"] {
+    background-color: #e05712;
+    color: #fff;
+    font-size: 20px;
+ }
+
+input[type="submit"]:hover {
+    transition: background-color 0.5s;
+    background-color: #de6c33;
+    transition: color 0.5s;
+    color: #000;
+  }
+
+/***** Footer *****/
+.footer-page {
+    background-color: #e05712;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    }
+
+.social p a:hover,
+.social p a:active {
+    color: #000; 
+}
+
+.footer-text {
+text-align: center;
+margin: 10px 0 20px 0;
+}
+
 
 
 /***** Contact form *****/
@@ -313,6 +388,10 @@ margin: 10px 0 20px 0;
     height: 0;
     visibility: hidden;
 }
+
+
+
+
 
 /***** poznámky pro  pseudotřídy****
 
