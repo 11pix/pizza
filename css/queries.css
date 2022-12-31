@@ -4,7 +4,8 @@
         margin-left: 10px;
         margin-right: 10px;
         }
-    }   
+    }
+    
     
 
 @media only screen and (max-width: 750px) {
@@ -17,4 +18,17 @@
     .photo-segment li {
         width: 100%;
     }
+
+    .col.span-1-of-3.one-reference {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-name {
+        float: right;
+        margin-right: 25px;
+    }
 }
+
+
