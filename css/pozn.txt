@@ -1,0 +1,11 @@
+/***** poznámky pro display: ****
+
+inline: paddingy po všech stranách, marginy jen vlevo a vpravo,
+nemá výšku ani šířku;
+
+inline-block: má marginy a paddingy po všech stranách, má výšku i šířku, nechá elementy vedle sebe;
+
+block: má marginy a paddingy po všech stranách, má výšku i šířku, každý element je na jednom řádku;
+
+none: nechá zmizet;
+*/
