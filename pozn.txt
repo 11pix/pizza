@@ -1,4 +1,4 @@
-/***** poznámky pro display: ****
+Poznámky pro display:
 
 inline: paddingy po všech stranách, marginy jen vlevo a vpravo,
 nemá výšku ani šířku;
@@ -8,4 +8,25 @@ inline-block: má marginy a paddingy po všech stranách, má výšku i šířku
 block: má marginy a paddingy po všech stranách, má výšku i šířku, každý element je na jednom řádku;
 
 none: nechá zmizet;
-*/
+
+
+
+..................
+
+
+
+Jak udělat scrollování bez jQuery:
+
+David Šetek - Hackni svou budoucnost
+před 11 měsíci
+Dobrý den, díky, jsem rád, že se Vám videa líbí. Zkuste to udělat bez jQeury tak, že do CSS si úplně nahoru dáte: 
+html {
+scroll-behavior: smooth;
+}
+
+A v index.html to udělejte pomocí ID. Takže na místo, kam chcete scrollovat přidáte id (např. <section id="nase-pizza">Obsah sekce</section>. 
+
+A pak v navigaci do odkazu dáte 
+<a href="#nazevID">Text</a>
+
+Takto by Vám to také mohlo fungovat. Již by to mělo fungovat ve všech prohlížečích 
