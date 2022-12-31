@@ -75,4 +75,38 @@
     }
 }
 
+@media screen and (max-width: 730px) {
+
+    /***** Header *****/
+    .header-text {
+        width: 100%;
+        left: 0;
+        transform: translate(0%, 0%);
+    }
+
+    .header-text h1 {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-full:link,
+    .btn-full:visited {
+        margin-top: 50px;
+        padding: 10px 0;
+    }
+
+    .btn-empty:link,
+    .btn-empty:visited {
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 10px 0;
+
+    }
+}
 
