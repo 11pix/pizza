@@ -7,9 +7,49 @@
         }
     }
     
-    
+        /***** About us *****/
+        .pizza-example .span-1-of-2 {
+            width: 48.3%;
+        }
+
+        .pizza-example img {
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+
+@media only screen and (max-width: 860px) {
+
+    /* **** Our pizza **** */
+    .pizza-info .span-1-of-2 {
+        width: 96%;
+    }
+
+    .pizza-info img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .text-pizza p {
+        padding: auto;
+    }
+
+
+}
+
+
 
 @media only screen and (max-width: 750px) {
+
+    /***** About us *****/
+    .pizza-example .span-1-of-2 {
+        width: 96%;
+        margin-left: 0;
+    }
+    .pizza-example img {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 
     /***** Photo gallery *****/
     .photo-segment .col {
@@ -22,7 +62,6 @@
     }
 
 
-    
     /***** Reference *****/
     .col.span-1-of-3.one-reference {
         width: 100%;

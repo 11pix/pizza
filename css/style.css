@@ -125,13 +125,15 @@ nav ul li a:active {
 /***** Our pizza *****/
 .pizza-info img {
     width: 100%;
-    height: 270px;
+    /* height: 270px; */
     border-radius: 10px;
     box-shadow: 4px 6px 10px #000;
+    margin: 10px;
 }
  
 .text-pizza {
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .text-pizza div {
@@ -139,7 +141,8 @@ nav ul li a:active {
     height: 50px;
     border: 2px solid #000;
     text-align: center;
-    border-radius: 50%;padding: 12px;
+    border-radius: 50%;
+    padding: 14px;
     float: left
  }
 
