@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.6.3.min.js"
+          integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="   crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <title>eleven-pizza</title>
 </head>
 <body>
@@ -17,15 +20,15 @@
     <header>
         <div class="nav-bar row">
             <div id="logo">
-                <img src="img/logo.png" alt="Logo">
+                <!-- <img src="img/logo.png" alt="Logo"> -->
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Dva</a></li>
-                    <li><a href="#">Tři</a></li>
-                    <li><a href="#">Čtyři</a></li>
-                    <li><a href="#">Pět</a></li>  
+                    <li><a href="#" class="jq--scroll-our-pizza">Naše pizza</a></li>
+                    <li><a href="#">O naší pizze</a></li>
+                    <li><a href="#">Reference</a></li>
+                    <li><a href="#">Fotogalerie</a></li>
+                    <li><a href="#">Kontakt</a></li>  
                 </ul>
             </nav>
         </div>
@@ -38,7 +41,7 @@
     </header>
 
     <main>
-        <section class="about-us row">
+        <section class="about-us row jq--our-pizza">
             <div class="heading-main">
                 <h2>Naše pizza</h2>              
             </div>
