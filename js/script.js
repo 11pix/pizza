@@ -23,5 +23,14 @@
         });
 
 
+        /* Scroll buttons to sections */
+        $(".jq--scroll-button-first").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--our-pizza").offset().top}, 1800);
+        });
+
+        $(".jq--scroll-button-second").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1800);
+        });
+
     });
 })(jQuery);
