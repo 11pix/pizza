@@ -154,6 +154,7 @@ nav ul li a:active {
     ,url(../img/pizza.jpg);
     background-attachment: fixed;
     background-size: cover;
+    padding: 10px;
 }
 
 .reference h2 {
