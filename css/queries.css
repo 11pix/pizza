@@ -17,6 +17,37 @@
             margin-right: 2%;
         }
 
+@media only screen and (max-width: 1125px) {
+
+    /***** Mobile navigation *****/
+    nav ul li {
+        display: block;
+    }
+    .nav-background {
+        /* display: none; */
+    }
+
+    .mobile-nav-back {
+        height: 200px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        border-bottom: 2px solid white;
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 3%;
+    }
+
+    nav ul {
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 860px) {
 

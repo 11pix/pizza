@@ -127,6 +127,14 @@ nav ul li a:active {
     border: 2px solid #e05712;
 }
 
+/***** Mobile navigation *****/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 15px;
+    display: none;
+}
+
+
 /***** About us *****/
 .pizza-example img {
     width: 100%;
