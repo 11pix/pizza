@@ -51,7 +51,6 @@
                  $($(".jq--image-hamburger").attr("src", "img/hamburgerMenu.png"));
             }
 
-
         })
        
         

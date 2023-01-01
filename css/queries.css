@@ -23,17 +23,18 @@
     nav ul li {
         display: block;
     }
-    .nav-background {
-        /* display: none; */
-    }
+    /* .nav-background {
+        display: none;
+    } */
 
     .mobile-nav-back {
         height: 211px;
         position: fixed;
         width: 100%;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.9);
         border-bottom: 2px solid white;
         display: none;
+        z-index: 100;
     }
 
     .mobile-nav-icon {
@@ -45,7 +46,14 @@
 
     nav ul {
         display: none;
+        z-index: 200;
     }
+
+        nav ul li a:hover,
+        nav ul li a:active {
+            transition: border-bottom 0.5s;
+            border-bottom: 2px solid transparent;
+        }
 }
 
 
