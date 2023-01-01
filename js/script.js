@@ -32,5 +32,13 @@
             $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1800);
         });
 
+        /* Mobile navigation */
+        $(".jq--nav-icon").click(function(){
+            $(".nav-background").fadeToggle();
+            $(".mobile-nav-back").slideToggle();
+            $("nav ul").fadeToggle();
+        });
+
+
     });
 })(jQuery);
