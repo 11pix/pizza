@@ -128,12 +128,22 @@ nav ul li a:active {
 }
 
 /***** Mobile navigation *****/
-.mobile-nav-icon {
+/*puvodni hamburgerMenu*/
+/* .mobile-nav-icon {
     float: right;
     margin-top: 15px;
     display: none;
-}
+    
+} */
 
+.mobile-nav-icon {
+    float: right;
+    margin-top: -6px;
+    transform: scale(0.9,  0.7
+    );
+    display: none;
+
+}
 
 /***** About us *****/
 .pizza-example img {
